@@ -1,0 +1,166 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: Poppins;
+}
+a {
+  text-decoration: none;
+  color: #fff;
+}
+p {
+  color: #4e4e4e;
+  font-weight: 400;
+}
+section {
+  padding: 50px 0;
+}
+/* header css start*/
+.search {
+  border: none;
+  border-radius: 20px;
+  outline: none;
+  background-color: #f1f1f1;
+}
+.search-form {
+  width: 50%;
+}
+.nav-link {
+  color: #707070;
+}
+.nav-link:hover {
+  color: #ff136f;
+}
+input[type="search"]::placeholder {
+  color: #cccccc;
+}
+/* header css end */
+/* banner css start*/
+#banner {
+  padding-top: 0;
+}
+.carousel-item,
+.footer {
+  background-color: #feeae9;
+}
+
+.banner-content p {
+  color: #4e4e4e;
+  font-weight: bold;
+  line-height: 26px;
+}
+.banner-content h2 {
+  color: #ff136f;
+  font-size: 41px;
+  font-weight: 500;
+}
+.buy-btn {
+  background: linear-gradient(#ff589b, #ff136f);
+  text-transform: uppercase;
+  padding: 8px 25px;
+  color: #fff;
+}
+/* banner css end */
+
+/* Categories css start */
+.single-categories img {
+  width: 30%;
+}
+.single-categories {
+  background: linear-gradient(#ff9c35, #ffd019);
+}
+.single-categories h2 {
+  font-size: 36px;
+}
+.single-categories3 {
+  background: linear-gradient(#4289ff, #3f07f8);
+}
+.single-categories2 {
+  background: linear-gradient(#ff589b, #ff136f);
+}
+/* categories css end */
+
+/* shoes css start */
+#shoes {
+  background-color: #f4f4f4;
+}
+.card-item {
+  border: none;
+  margin-bottom: 15px;
+}
+/* footer css start */
+footer {
+  padding: 50px 0;
+}
+.footer {
+  padding: 100px 0;
+}
+.main-footer h2 {
+  font-size: 30px;
+  font-weight: 600;
+  color: #1f1f1f;
+}
+.main-footer p {
+  color: #707070;
+  font-weight: 500;
+}
+input {
+  border: none;
+  outline: none;
+}
+input[type="text"] {
+  border: none;
+  padding: 14px;
+  width: 500px;
+}
+input[type="text"]::placeholder {
+  color: #cccccc;
+  font-size: 18px;
+  font-weight: 400;
+}
+.submit {
+  position: relative;
+}
+input[type="submit"] {
+  position: absolute;
+  right: 0;
+  top: 0;
+  background: linear-gradient(#ff589b, #ff136f);
+  padding: 13px 30px;
+  color: #fff;
+  font-size: 18px;
+}
+/* footer css end */
+
+/* media query for responsive */
+@media (max-width: 667px) {
+  .search-form {
+    width: 100%;
+  }
+  .navbar-collapse {
+    margin-top: 15px;
+  }
+  .banner-content {
+    text-align: center;
+    margin-top: 20px;
+  }
+  section {
+    padding: 20px 0;
+  }
+  input[type="text"] {
+    width: 100%;
+  }
+  footer {
+    padding: 40px 0;
+  }
+  input[type="submit"] {
+    right: 14px;
+  }
+  input[type="text"] {
+    width: 91%;
+  }
+  .main-footer h2 {
+    font-size: 26px;
+  }
+}
